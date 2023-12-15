@@ -19,4 +19,4 @@ def log_error(message):
 
 def log_debug(message):
     print('[DEBUG] ' + message)
-    logging.error(message)
+    logging.debug(message)
